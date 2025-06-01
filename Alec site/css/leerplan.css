@@ -1,0 +1,50 @@
+.doelen-pagina {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  height: 430px;
+}
+
+.doelen-titel {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.doelen-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.doelen-kaart {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-left: 6px solid #005792;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doelen-kaart:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.doelen-kaart h2 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #005792;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.doelen-kaart p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}

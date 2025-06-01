@@ -1,0 +1,39 @@
+.bronnen-pagina {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  font-family: 'Roboto', sans-serif;
+  height: 430px;
+}
+
+.bronnen-titel {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #2a2a2a;
+}
+
+.bronnen-lijst {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bron-kaart {
+  background-color: #fff;
+  padding: 20px 25px;
+  border-left: 5px solid #555;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: background-color 0.3s ease;
+}
+
+.bron-kaart:hover {
+  background-color: #f5f5f5;
+}
+
+.bron-kaart p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
